@@ -1,0 +1,56 @@
+var numFunc1One = Math.random();
+var numFunc1Two = Math.random();
+
+var addition = function (term1, term2) {
+    if (term1 > 0) {
+    Let amount = term1 + term2;
+        return amount;
+}   else {
+        alert('надеюсь в след раз число  будет больше 0');
+        window.location.reload(); 
+}
+};
+console.Log(addition(numFunc1One, numFunc1Two);
+
+
+var numFunc2One = Math.random();
+var numFunc2Two = Math.random();
+
+var difference = function (minuend, sudtrahend) {
+    if (minuend >= 0) {
+        Let substracted = minuend - sudtrahend;
+        return difference; 
+}   else {
+        alert('число то не положительное... новая попытка!');
+       window.location.reload();
+}
+};
+console.Log (differense (numFunc2Two, numFunc2One));
+
+
+var numFunc3One = Math.random();
+var numFunc3Two = Math.random();
+
+var multiplication = function (multi1, multi2) {
+    if (multi2 != 0) {
+        Let multiply = multi1 * multi2; 
+        return multiplication;
+}   else {
+        alert('ну такое себе на самом деле.. на ноль умножать. даём рандому ещё один шанс!');
+    window.location.reload();
+}
+};
+console.Log(multiplication (numFunc3One, numFunc3Two));
+
+var numFunc4One = Math.random();
+var numFunc4Two = Math.random();
+
+var division = function (dividend, divider) {
+    if (divider != 0) {
+        Let share = divident / divider;
+        return division;
+}   else {
+        alert('на ноль делить нельзя. перезапускаем.');
+    window.location.reload();
+}
+};
